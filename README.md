@@ -1,60 +1,77 @@
+<div align="center">
+
 # Merhaba, ben Ali Danış 👋
 
-Trakya Üniversitesi **Mobil Teknolojileri** mezunuyum. Hedefim, Flutter tabanlı mobil uygulama geliştirme alanında ilerlemek ve düzenli projeler üreterek kendimi geliştirmek.
+### Junior Flutter & Mobil Uygulama Geliştirici
 
-## Teknik Yetenekler
+Mobil Teknolojileri mezunuyum. Flutter odaklı mobil uygulamalar geliştiriyor, yazılım temellerimi gerçek projeler ve düzenli GitHub çalışmalarıyla güçlendiriyorum.
 
-- Flutter & Dart — gelişim düzeyi
-- Android Studio
-- Java
-- JavaScript
-- HTML5 & CSS3
-- WordPress ile temel site yönetimi
-- Unity ile temel 2D oyun geliştirme
-- Veri tabanı tasarımı — temel
-- Microsoft Excel — temel
-- Git & GitHub — temel
+![Flutter](https://img.shields.io/badge/Flutter-Gelişim%20Düzeyi-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-Temel-0175C2?logo=dart&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-Temel-7F52FF?logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-Temel-ED8B00)
+![JavaScript](https://img.shields.io/badge/JavaScript-Temel-F7DF1E?logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git%20%26%20GitHub-Temel-F05032?logo=git&logoColor=white)
 
-## Akademik Projelerim
+</div>
 
-### Kalori Hesaplama Uygulaması
-Üniversite kapsamında ekip arkadaşlarımla geliştirdiğimiz mobil uygulama. Kullanıcının girdiği bilgilere göre kalori hesaplama işlevi üzerine çalıştık.
+## Öne Çıkan Projeler
 
-### Android Hesap Makinesi
-Android Studio kullanarak temel matematiksel işlemleri gerçekleştiren bir hesap makinesi uygulaması geliştirdim. Ders kapsamında farklı küçük Android uygulama çalışmaları da yaptım.
+### 📱 [Android Hesap Makinesi](projects/android-calculator/)
 
-### WordPress E-Ticaret Sitesi
-İçerik yönetimi ve e-ticaret dersi kapsamında WordPress kullanarak Trendyol benzeri ürün listeleme mantığına sahip bir site hazırladım.
+Kotlin ve Android Studio ile geliştirilen mobil hesap makinesi.
 
-### Veri Tabanı Tasarımı ve Excel Çalışmaları
-Veri tabanı tasarımı dersinde temel veri düzenleme ve tasarım çalışmaları; Excel üzerinde ise çeşitli tablo ve uygulama örnekleri yaptım.
+- Dört işlem, ondalık sayı ve yüzde desteği
+- Pozitif/negatif sayı değiştirme
+- Sıfıra bölme kontrolü
+- Material Design 3 arayüzü
+- Ayrı hesaplama motoru ve birim testleri
 
-### Şehir Tanıtım Sitesi
-Kendi şehrimin kültürel ve yerel özelliklerini tanıtmak amacıyla hazırladığım web sitesi çalışması.
+**Teknolojiler:** Kotlin, Android Studio, XML, Material Design, JUnit
 
-### 2D Platform Oyunu
-Unity kullanarak Mario tarzında temel hareket ve platform mekaniklerine sahip bir 2D oyun geliştirdim.
+### 🎮 [Unity 2D Platform Oyunu](projects/unity-2d-platformer/)
 
-### Mikrodenetleyici Yangın Müdahale Sistemi
-Grup çalışması olarak, yangın algılandığında ilgili yöne hareket edip su püskürtmeyi amaçlayan görev tabanlı bir mikrodenetleyici projesi üzerinde çalıştık.
+Üniversite dönemindeki Unity çalışmasının düzenlenmiş ve geliştirilmiş portföy sürümü.
 
-### Ağ Teknolojileri Çalışmaları
-Ağ temelleri, internet teknolojileri ve ağ kablosu hazırlama konularında uygulamalı çalışmalar yaptım.
+- Hareket ve zıplama mekanikleri
+- Yumuşak kamera takibi
+- Toplanabilir yıldızlar ve skor
+- Tehlike, yeniden doğma ve bitiş sistemi
 
-### Yapay Zekâ Çalışmaları
-Üniversite dersleri kapsamında yapay zekâ ile ilgili farklı proje ve uygulama çalışmalarına katıldım.
+**Teknolojiler:** C#, Unity 2022.3, Visual Studio, Unity 2D Physics
 
-## Şu An Ne Yapıyorum?
+### 🌐 [Kişisel Portföy Sitesi](./)
 
-- Flutter ve Dart bilgimi geliştiriyorum.
-- Eski akademik projelerimi düzenleyip GitHub'a aktarıyorum.
-- Her hafta yeni kod ve anlamlı commit eklemeyi hedefliyorum.
-- Sıradaki projem: Flutter ile görev takip uygulaması.
+HTML, CSS ve JavaScript kullanılarak geliştirilen mobil uyumlu kişisel portföy sitesi.
 
-## Bu Depo
+## Akademik Çalışmalar
 
-Bu depo, HTML, CSS ve JavaScript kullanarak hazırladığım kişisel portföy çalışmamdır. Akademik projelerimin kaynak kodlarını erişilebilir hâle getirdikçe ayrı depolarda paylaşacağım.
+- Kalori hesaplama mobil uygulaması — grup projesi
+- Şehir tanıtım web sitesi
+- WordPress ile e-ticaret sitesi
+- Mikrodenetleyici tabanlı yangın müdahale sistemi — grup projesi
+- Ağ teknolojileri ve kablolama çalışmaları
+- Veri tabanı tasarımı ve Excel uygulamaları
+- Yapay zekâ ders projeleri
 
-## İletişim
+## Teknik Alanlar
 
-- GitHub: [@alidanis61615](https://github.com/alidanis61615)
+| Alan | Teknolojiler | Seviye |
+|---|---|---|
+| Mobil geliştirme | Flutter, Dart, Android Studio, Kotlin | Gelişim / temel |
+| Web geliştirme | HTML5, CSS3, JavaScript, WordPress | Temel |
+| Programlama | Java, C# | Temel |
+| Oyun geliştirme | Unity 2D | Temel |
+| Araçlar | Git, GitHub, Visual Studio | Temel |
+
+## Şu Anki Hedefim
+
+Flutter ve Dart bilgimi geliştirerek yeni mobil uygulamalar üretmek, akademik çalışmalarımı düzenli biçimde GitHub'a aktarmak ve Junior Mobil Uygulama Geliştirici pozisyonunda gerçek proje deneyimi kazanmak.
+
+---
+
+<div align="center">
+
+[GitHub Profilim](https://github.com/alidanis61615) · Düzenli olarak yeni projeler ve geliştirmeler ekliyorum.
+
+</div>

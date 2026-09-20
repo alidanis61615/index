@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hesap Makinesi</string>
+    <string name="calculator_title">Hesap Makinesi</string>
+    <string name="display_content_description">Hesaplama sonucu</string>
+    <string name="clear">AC</string>
+    <string name="toggle_sign">±</string>
+    <string name="percent">%</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="subtract">−</string>
+    <string name="add">+</string>
+    <string name="equals">=</string>
+    <string name="decimal_separator">,</string>
+</resources>
+

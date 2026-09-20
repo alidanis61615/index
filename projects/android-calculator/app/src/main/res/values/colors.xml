@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calculator_background">#F3F5F9</color>
+    <color name="calculator_surface">#FFFFFF</color>
+    <color name="calculator_text">#172033</color>
+    <color name="calculator_muted">#667085</color>
+    <color name="calculator_primary">#4F46E5</color>
+    <color name="calculator_primary_dark">#3730A3</color>
+    <color name="calculator_operator">#E8E7FF</color>
+    <color name="calculator_function">#E8EDF5</color>
+    <color name="calculator_white">#FFFFFFFF</color>
+</resources>
+

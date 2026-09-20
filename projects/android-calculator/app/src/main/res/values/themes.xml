@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ALI61" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/calculator_primary</item>
+        <item name="colorPrimaryContainer">@color/calculator_operator</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/calculator_background</item>
+        <item name="android:statusBarColor">@color/calculator_background</item>
+    </style>
+    <style name="Theme.ALI61" parent="Base.Theme.ALI61" />
+    <style name="Widget.Calculator.Button" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="backgroundTint">@color/calculator_surface</item>
+        <item name="android:textColor">@color/calculator_text</item>
+    </style>
+    <style name="Widget.Calculator.FunctionButton" parent="Widget.Calculator.Button">
+        <item name="backgroundTint">@color/calculator_function</item>
+    </style>
+    <style name="Widget.Calculator.OperatorButton" parent="Widget.Calculator.Button">
+        <item name="backgroundTint">@color/calculator_operator</item>
+        <item name="android:textColor">@color/calculator_primary_dark</item>
+    </style>
+    <style name="Widget.Calculator.EqualsButton" parent="Widget.Calculator.Button">
+        <item name="backgroundTint">@color/calculator_primary</item>
+        <item name="android:textColor">@color/calculator_white</item>
+    </style>
+</resources>
+
