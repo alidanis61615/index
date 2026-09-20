@@ -1,22 +1,46 @@
 # Merhaba, ben Ali Danış 👋
 
-Trakya Üniversitesi **Mobil Teknolojileri** mezunuyum. Mobil uygulama ve web geliştirme alanında kendimi geliştiriyorum.
+Trakya Üniversitesi **Mobil Teknolojileri** mezunuyum. Hedefim, Flutter tabanlı mobil uygulama geliştirme alanında ilerlemek ve düzenli projeler üreterek kendimi geliştirmek.
 
-## Teknolojiler
+## Teknik Yetenekler
 
-- Flutter & Dart
+- Flutter & Dart — gelişim düzeyi
 - Java
 - JavaScript
 - HTML5 & CSS3
-- Git & GitHub
+- Unity ile temel 2D oyun geliştirme
+- Git & GitHub — temel
 
-## Hedefim
+## Akademik Projelerim
 
-Kullanıcı odaklı mobil uygulamalar geliştirerek gerçek projelerde deneyim kazanmak ve yazılım alanında uzmanlaşmak.
+### Kalori Hesaplama Uygulaması
+Üniversite kapsamında ekip arkadaşlarımla geliştirdiğimiz mobil uygulama. Kullanıcının girdiği bilgilere göre kalori hesaplama işlevi üzerine çalıştık.
 
-## Bu depo
+### Şehir Tanıtım Sitesi
+Kendi şehrimin kültürel ve yerel özelliklerini tanıtmak amacıyla hazırladığım web sitesi çalışması.
 
-Bu depo, HTML, CSS ve JavaScript kullanılarak hazırladığım kişisel portföy çalışmamdır. Yeni projeler geliştirdikçe GitHub profilime düzenli olarak ekleyeceğim.
+### 2D Platform Oyunu
+Unity kullanarak Mario tarzında temel hareket ve platform mekaniklerine sahip bir 2D oyun geliştirdim.
+
+### Mikrodenetleyici Yangın Müdahale Sistemi
+Grup çalışması olarak, yangın algılandığında ilgili yöne hareket edip su püskürtmeyi amaçlayan görev tabanlı bir mikrodenetleyici projesi üzerinde çalıştık.
+
+### Ağ Teknolojileri Çalışmaları
+Ağ temelleri, internet teknolojileri ve ağ kablosu hazırlama konularında uygulamalı çalışmalar yaptım.
+
+### Yapay Zekâ Çalışmaları
+Üniversite dersleri kapsamında yapay zekâ ile ilgili farklı proje ve uygulama çalışmalarına katıldım.
+
+## Şu An Ne Yapıyorum?
+
+- Flutter ve Dart bilgimi geliştiriyorum.
+- Eski akademik projelerimi düzenleyip GitHub'a aktarıyorum.
+- Her hafta yeni kod ve anlamlı commit eklemeyi hedefliyorum.
+- Sıradaki projem: Flutter ile görev takip uygulaması.
+
+## Bu Depo
+
+Bu depo, HTML, CSS ve JavaScript kullanarak hazırladığım kişisel portföy çalışmamdır. Akademik projelerimin kaynak kodlarını erişilebilir hâle getirdikçe ayrı depolarda paylaşacağım.
 
 ## İletişim
 
