@@ -5,16 +5,29 @@ Trakya Üniversitesi **Mobil Teknolojileri** mezunuyum. Hedefim, Flutter tabanl�
 ## Teknik Yetenekler
 
 - Flutter & Dart — gelişim düzeyi
+- Android Studio
 - Java
 - JavaScript
 - HTML5 & CSS3
+- WordPress ile temel site yönetimi
 - Unity ile temel 2D oyun geliştirme
+- Veri tabanı tasarımı — temel
+- Microsoft Excel — temel
 - Git & GitHub — temel
 
 ## Akademik Projelerim
 
 ### Kalori Hesaplama Uygulaması
 Üniversite kapsamında ekip arkadaşlarımla geliştirdiğimiz mobil uygulama. Kullanıcının girdiği bilgilere göre kalori hesaplama işlevi üzerine çalıştık.
+
+### Android Hesap Makinesi
+Android Studio kullanarak temel matematiksel işlemleri gerçekleştiren bir hesap makinesi uygulaması geliştirdim. Ders kapsamında farklı küçük Android uygulama çalışmaları da yaptım.
+
+### WordPress E-Ticaret Sitesi
+İçerik yönetimi ve e-ticaret dersi kapsamında WordPress kullanarak Trendyol benzeri ürün listeleme mantığına sahip bir site hazırladım.
+
+### Veri Tabanı Tasarımı ve Excel Çalışmaları
+Veri tabanı tasarımı dersinde temel veri düzenleme ve tasarım çalışmaları; Excel üzerinde ise çeşitli tablo ve uygulama örnekleri yaptım.
 
 ### Şehir Tanıtım Sitesi
 Kendi şehrimin kültürel ve yerel özelliklerini tanıtmak amacıyla hazırladığım web sitesi çalışması.
