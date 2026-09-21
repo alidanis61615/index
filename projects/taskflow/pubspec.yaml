@@ -1,7 +1,7 @@
 name: taskflow
 description: Flutter ve SQLite ile görev takip portföy projesi.
 publish_to: "none"
-version: 0.2.0+2
+version: 0.3.0+3
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
