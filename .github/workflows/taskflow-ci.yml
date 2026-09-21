@@ -16,6 +16,7 @@ jobs:
     defaults:
       run:
         working-directory: projects/taskflow
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,3 +38,18 @@ jobs:
 
       - name: Run tests
         run: flutter test
+
+      - name: Generate Android project files
+        run: flutter create . --platforms=android --project-name taskflow
+
+      - name: Build Android debug APK
+        run: flutter build apk --debug
+
+      - name: Upload APK artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: taskflow-android-debug
+          path: projects/taskflow/build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14
