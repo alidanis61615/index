@@ -6,8 +6,8 @@
 
 Mobil Teknolojileri mezunuyum. Flutter odaklı mobil uygulamalar geliştiriyor, yazılım temellerimi gerçek projeler ve düzenli GitHub çalışmalarıyla güçlendiriyorum.
 
-![Flutter](https://img.shields.io/badge/Flutter-Gelişim%20Düzeyi-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-Temel-0175C2?logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-Project-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-Project-0175C2?logo=dart&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Temel-7F52FF?logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-Temel-ED8B00)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Temel-F7DF1E?logo=javascript&logoColor=black)
@@ -16,6 +16,21 @@ Mobil Teknolojileri mezunuyum. Flutter odaklı mobil uygulamalar geliştiriyor, 
 </div>
 
 ## Öne Çıkan Projeler
+
+### ✅ [TaskFlow — Flutter Görev Takip Uygulaması](projects/taskflow/)
+
+Flutter ve Dart ile geliştirilen, SQLite tabanlı görev takip portföy projesi.
+
+- Görev ekleme, silme ve tamamlanma takibi
+- Arama ve Tümü/Aktif/Biten filtreleri
+- SQLite ile kalıcı yerel veri saklama
+- Açık / koyu tema
+- Material 3 arayüz
+- Temel model testi
+
+**Teknolojiler:** Flutter, Dart, SQLite, SharedPreferences, Material 3, Git
+
+> Durum: Aktif olarak geliştiriliyor.
 
 ### 📱 [Android Hesap Makinesi](projects/android-calculator/)
 
