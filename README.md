@@ -1,92 +1,90 @@
 <div align="center">
 
 # Merhaba, ben Ali Danış 👋
-
 ### Junior Flutter & Mobil Uygulama Geliştirici
 
-Mobil Teknolojileri mezunuyum. Flutter odaklı mobil uygulamalar geliştiriyor, yazılım temellerimi gerçek projeler ve düzenli GitHub çalışmalarıyla güçlendiriyorum.
+🎓 Trakya Üniversitesi — Mobil Teknolojileri (Ön Lisans, 2026) · GNO: 3.24/4.00
 
-![Flutter](https://img.shields.io/badge/Flutter-Project-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-Project-0175C2?logo=dart&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-Temel-7F52FF?logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-Temel-ED8B00)
-![JavaScript](https://img.shields.io/badge/JavaScript-Temel-F7DF1E?logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git%20%26%20GitHub-Temel-F05032?logo=git&logoColor=white)
+Flutter ve Dart ile Android uygulamaları, HTML/CSS/JavaScript ile web projeleri geliştiriyorum. Özellikle çevrimdışı veri saklama, kullanıcı dostu arayüzler ve projelerimi test ederek geliştirme üzerine çalışıyorum.
+
+**[Projelerim](#-öne-çıkan-projeler) · [Teknik yetkinlikler](#-teknik-yetkinlikler) · [LinkedIn](https://www.linkedin.com/in/ali-danis-3657b2435/)**
 
 </div>
 
-## Öne Çıkan Projeler
+## 🚀 Öne Çıkan Projeler
 
-### ✅ [TaskFlow — Flutter Görev Takip Uygulaması](projects/taskflow/)
+### 📱 [PaketKap — Kalori ve Beslenme Takibi](https://github.com/alidanis61615/PaketKap)
+**Flutter · Dart · SQLite · Material 3 · GitHub Actions**
 
-Flutter ve Dart ile geliştirilen, SQLite tabanlı görev takip portföy projesi.
+Türkçe arayüzlü, Android'de çevrimdışı çalışan beslenme takip uygulaması.
+- Günlük kalori, protein, karbonhidrat ve yağ hedefleri; öğün ve su takibi
+- 7/30/90 günlük trendler, kilo kayıtları ve raporlar
+- SQLite ile kalıcı kayıtlar; JSON yedekleme ve geri yükleme
+- GitHub Actions üzerinden Flutter analiz/test ve debug APK derlemesi
 
-- Görev ekleme, silme ve tamamlanma takibi
-- Arama ve Tümü/Aktif/Biten filtreleri
-- SQLite ile kalıcı yerel veri saklama
-- Açık / koyu tema
-- Material 3 arayüz
-- Temel model testi
+> Not: Gerçek cihaz ekran görüntülerinin depoya eklenmesi planlanıyor. Uygulama mağazada yayımlanmış olarak sunulmuyor.
 
-**Teknolojiler:** Flutter, Dart, SQLite, SharedPreferences, Material 3, Git
+**[Kaynak kodu ve kullanım](https://github.com/alidanis61615/PaketKap)**
 
-> Durum: Aktif olarak geliştiriliyor.
+### ✅ [TaskFlow — Görev Yönetimi](https://github.com/alidanis61615/TaskFlow)
+**Flutter · Dart · SQLite · SharedPreferences · Material 3**
 
-### 📱 [Android Hesap Makinesi](projects/android-calculator/)
+Çevrimdışı çalışan Android görev takip uygulaması.
+- Görev ekleme, düzenleme, silme, önceliklendirme ve tamamlama
+- Metin araması, aktif/biten filtreleri ve tamamlanma ilerlemesi
+- Açık/koyu tema, SQLite veri kalıcılığı
+- GitHub Actions kontrolleri ve Android APK derlemesi
 
-Kotlin ve Android Studio ile geliştirilen mobil hesap makinesi.
+**[Kaynak kodu ve gerçek cihaz ekran görüntüleri](https://github.com/alidanis61615/TaskFlow)**
 
-- Dört işlem, ondalık sayı ve yüzde desteği
-- Pozitif/negatif sayı değiştirme
-- Sıfıra bölme kontrolü
-- Material Design 3 arayüzü
-- Ayrı hesaplama motoru ve birim testleri
+### 📚 [OkuTrack — Öğrenci Okuma Takip ve Analiz](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-)
+**HTML5 · CSS3 · JavaScript · localStorage**
 
-**Teknolojiler:** Kotlin, Android Studio, XML, Material Design, JUnit
+Mobil uyumlu öğrenci okuma takip ve analiz web uygulaması.
+- Öğrenci, kitap ve okuma kaydı yönetimi
+- Günlük hedef, 7 günlük grafik, öğrenci bazında performans analizi
+- Excel'de açılabilen CSV raporu; JSON yedekleme ve geri yükleme
+- Tarayıcıda yerel veri saklama; örnek verilerle deneme
 
-### 🎮 [Unity 2D Platform Oyunu](projects/unity-2d-platformer/)
+**[🌐 Canlı demoyu aç](https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/) · [Kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-)**
 
-Üniversite dönemindeki Unity çalışmasının düzenlenmiş ve geliştirilmiş portföy sürümü.
+> Veriler tarayıcıda tutulur; bu sürümde kullanıcı hesabı veya sunucu veritabanı bulunmaz.
 
-- Hareket ve zıplama mekanikleri
-- Yumuşak kamera takibi
-- Toplanabilir yıldızlar ve skor
-- Tehlike, yeniden doğma ve bitiş sistemi
+### 🌐 [Kişisel Yazılım Portföyü](https://github.com/alidanis61615/index)
+**HTML · CSS · JavaScript · Kotlin · Unity/C# (temel)**
 
-**Teknolojiler:** C#, Unity 2022.3, Visual Studio, Unity 2D Physics
+Mobil uyumlu kişisel portföy web sitesi ve diğer öğrenme projelerimin dokümantasyonu:
+- [Kişisel portföy sitesi](./)
+- [Android hesap makinesi (Kotlin)](projects/android-calculator/)
+- [Unity 2D platform oyunu](projects/unity-2d-platformer/)
+- [TaskFlow proje dokümantasyonu](projects/taskflow/)
 
-### 🌐 [Kişisel Portföy Sitesi](./)
+## 🛠 Teknik Yetkinlikler
 
-HTML, CSS ve JavaScript kullanılarak geliştirilen mobil uyumlu kişisel portföy sitesi.
+| Alan | Teknolojiler |
+| --- | --- |
+| Mobil geliştirme | Flutter, Dart, Android Studio, Material 3 |
+| Veri saklama | SQLite, SharedPreferences, localStorage |
+| Web | HTML5, CSS3, JavaScript, WordPress |
+| Araçlar ve süreçler | Git, GitHub, GitHub Actions, temel testler |
+| Temel düzeyde çalışmalar | Kotlin, Java, C#, Unity 2D |
 
-## Akademik Çalışmalar
+## 🎓 Eğitim ve Diğer Çalışmalar
 
-- Kalori hesaplama mobil uygulaması — grup projesi
-- Şehir tanıtım web sitesi
-- WordPress ile e-ticaret sitesi
-- Mikrodenetleyici tabanlı yangın müdahale sistemi — grup projesi
-- Ağ teknolojileri ve kablolama çalışmaları
-- Veri tabanı tasarımı ve Excel uygulamaları
-- Yapay zekâ ders projeleri
+**Trakya Üniversitesi — Mobil Teknolojileri (Ön Lisans)** · 2026 · **GNO: 3.24/4.00**
 
-## Teknik Alanlar
+Akademik çalışmalarım arasında kalori hesaplama grup projesi, şehir tanıtım web sitesi, WordPress e-ticaret sitesi, mikrodenetleyici tabanlı yangın müdahale sistemi, ağ/kablolama ve yapay zekâ ders projeleri yer alıyor.
 
-| Alan | Teknolojiler | Seviye |
-|---|---|---|
-| Mobil geliştirme | Flutter, Dart, Android Studio, Kotlin | Gelişim / temel |
-| Web geliştirme | HTML5, CSS3, JavaScript, WordPress | Temel |
-| Programlama | Java, C# | Temel |
-| Oyun geliştirme | Unity 2D | Temel |
-| Araçlar | Git, GitHub, Visual Studio | Temel |
+## 🎯 Hedefim
 
-## Şu Anki Hedefim
-
-Flutter ve Dart bilgimi geliştirerek yeni mobil uygulamalar üretmek, akademik çalışmalarımı düzenli biçimde GitHub'a aktarmak ve Junior Mobil Uygulama Geliştirici pozisyonunda gerçek proje deneyimi kazanmak.
+Junior Flutter / Mobil Uygulama Geliştirici pozisyonunda ekip içinde üretim deneyimi kazanmak; test, mimari ve mobil geliştirme becerilerimi gerçek projelerle ilerletmek.
 
 ---
 
 <div align="center">
 
-[GitHub Profilim](https://github.com/alidanis61615) · Düzenli olarak yeni projeler ve geliştirmeler ekliyorum.
+**[GitHub](https://github.com/alidanis61615) · [LinkedIn](https://www.linkedin.com/in/ali-danis-3657b2435/)**
+
+*Projelerim gelişmeye devam ediyor; her deponun README dosyasında mevcut özellikler ve sınırlamalar açıklanıyor.*
 
 </div>
