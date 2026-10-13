@@ -47,5 +47,5 @@ Bu proje, profesyonel oyun geliştirme deneyimi iddiası taşımaz. C#, Unity ve
 
 ## Geliştirici
 
-Ali Danış — Mobil Teknolojileri mezunu, Junior Flutter ve Mobil Uygulama Geliştirici adayı.
+Ali Danış — Mobil Teknolojileri mezunu, Yazılım Geliştirici.
 

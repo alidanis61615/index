@@ -37,5 +37,5 @@ Kotlin ve Android Studio kullanılarak geliştirilen modern, mobil uyumlu bir he
 
 ## Geliştirici
 
-Ali Danış — Mobil Teknolojileri mezunu, Junior Flutter ve Mobil Uygulama Geliştirici adayı.
+Ali Danış — Mobil Teknolojileri mezunu, Yazılım Geliştirici.
 

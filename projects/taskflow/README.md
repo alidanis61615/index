@@ -1,5 +1,7 @@
 # TaskFlow — Flutter Görev Takip Uygulaması
 
+Bu klasör TaskFlow'un ek öğrenme sürümüdür. Güncel bağımsız uygulama, gerçek cihaz ekranları ve APK derlemeleri için [TaskFlow deposunu](https://github.com/alidanis61615/TaskFlow) inceleyin. İki sürümün kodu ve özellikleri ayrı değerlendirilmelidir.
+
 [![TaskFlow CI](https://github.com/alidanis61615/index/actions/workflows/taskflow-ci.yml/badge.svg)](https://github.com/alidanis61615/index/actions/workflows/taskflow-ci.yml)
 
 TaskFlow, Flutter ve Dart ile geliştirilen; görevleri cihazda SQLite ile saklayan, arama/filtreleme ve açık-koyu tema desteği bulunan bir mobil portföy projesidir.
