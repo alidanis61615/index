@@ -9,7 +9,7 @@
 | Ad | Ali Danış |
 | Biyografi | Mobil Teknolojileri mezunu · Yazılım Geliştirici. Flutter, Dart, JavaScript ve SQLite ile uygulamalar geliştiriyorum. İş fırsatlarına açığım. |
 | Konum | İstanbul, Türkiye |
-| Web bağlantısı | https://www.linkedin.com/in/ali-danis-3657b2435/ |
+| Web bağlantısı | https://alidanis61615.github.io/index/ |
 | Profil görünürlüğü | Herkese açık |
 | İş durumu | Available for hire etkin |
 
@@ -48,3 +48,13 @@ OkuTrack deposunun web bağlantısı [canlı GitHub Pages demosuna](https://alid
 - OkuTrack'ın son kod kontrolü ve GitHub Pages yayını başarılı.
 
 [GitHub profilini aç](https://github.com/alidanis61615)
+
+## Teknik iyileştirmeler — 14 Ekim 2026
+
+- PaketKap: sayısal tür/tarih/öğün/hedef doğrulaması, işlem öncesi tam kontrol ve SQLite rollback testleri.
+- TaskFlow: model, sorgu, SQLite servisi, ekran ve form ayrımı; SQLite sürüm geçişi ve widget testleri.
+- OkuTrack: veri ilişkileri ve JSON doğrulaması, depolama hatalarının ele alınması; 22 davranış testi.
+- Mobil uygulamalar: analiz/test sonrası APK derleme ve elle kalıcı GitHub Release yayını.
+- Portföy: GitHub Pages iş akışı; üç ana proje, gerçek cihaz ekranları, APK ve demo bağlantıları.
+
+[Canlı portföy](https://alidanis61615.github.io/index/)
