@@ -1,165 +1,315 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ali Danış — Mobil Teknolojileri mezunu, Yazılım Geliştirici. Mobil uygulamalar, web projeleri ve veri takibi çözümleri.">
-  <title>Ali Danış | Yazılım Geliştirici</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="hero">
-    <nav class="nav container">
-      <a class="logo" href="#anasayfa">AD</a>
-      <button class="menu-button" aria-label="Menüyü aç" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#hakkimda">Hakkımda</a>
-        <a href="#yetenekler">Yetenekler</a>
-        <a href="#projeler">Projeler</a>
-        <a href="#iletisim">İletişim</a>
-      </div>
-    </nav>
-
-    <section id="anasayfa" class="hero-content container">
-      <p class="eyebrow">Mobil Teknolojileri Mezunu · Yazılım Geliştirici</p>
-      <h1>Merhaba, ben <span>Ali Danış</span>.</h1>
-      <p class="hero-text">Mobil uygulamalar, web arayüzleri ve veri takibi çözümleri geliştiriyorum. Kullanıcı ihtiyaçlarını anlaşılır arayüzlere dönüştürüyor, yazılım becerilerimi gerçek projelerle ilerletiyorum.</p>
-      <div class="actions">
-        <a class="button primary" href="#projeler">Projelerimi Gör</a>
-        <a class="button secondary" href="https://github.com/alidanis61615" target="_blank" rel="noreferrer">GitHub Profilim</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/ali-danis-3657b2435/" target="_blank" rel="noreferrer">LinkedIn</a>
-      </div>
-    </section>
-  </header>
-
-  <main>
-    <section id="hakkimda" class="section container">
-      <p class="section-label">Hakkımda</p>
-      <h2>Öğreniyor, geliştiriyor ve üretiyorum.</h2>
-      <p>Trakya Üniversitesi Mobil Teknolojileri (Ön Lisans) bölümünden 2026 yılında 3.24 / 4.00 not ortalamasıyla mezun oldum. Üniversite sürecinde mobil uygulamalar, web ve WordPress siteleri, veri tabanı tasarımı, 2D oyun ve mikrodenetleyici projelerinde çalıştım. Bugün Flutter, Dart ve JavaScript ile projeler geliştiriyor; kalıcı veri saklama, test ve hata ayıklama becerilerimi ilerletiyorum.</p>
-    </section>
-
-    <section id="yetenekler" class="section section-dark">
-      <div class="container">
-        <p class="section-label">Teknik Yetenekler</p>
-        <h2>Kullandığım teknolojiler</h2>
-        <div class="skill-grid">
-          <article class="card"><h3>Flutter & Dart</h3><p>Material 3 ile mobil arayüzler ve uygulama akışları</p></article>
-          <article class="card"><h3>Android Studio & Kotlin</h3><p>Android arayüzleri ve hesaplama mantığı</p></article>
-          <article class="card"><h3>Java</h3><p>Nesne yönelimli programlama temelleri</p></article>
-          <article class="card"><h3>JavaScript</h3><p>Etkileşimli web deneyimleri</p></article>
-          <article class="card"><h3>HTML & CSS</h3><p>Mobil uyumlu web arayüzleri</p></article>
-          <article class="card"><h3>WordPress</h3><p>Temel içerik yönetimi ve e-ticaret sitesi</p></article>
-          <article class="card"><h3>Unity</h3><p>Temel 2D oyun geliştirme</p></article>
-          <article class="card"><h3>Veri Saklama</h3><p>SQLite, SharedPreferences, localStorage ve JSON</p></article>
-          <article class="card"><h3>Git & GitHub Actions</h3><p>Versiyon kontrolü, otomatik analiz, test ve APK derleme</p></article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ali Danış — Mobil Teknolojileri mezunu, Yazılım Geliştirici. Mobil uygulamalar, web projeleri ve veri takibi çözümleri."
+    />
+    <link rel="canonical" href="https://alidanis61615.github.io/index/" />
+    <meta property="og:title" content="Ali Danış | Yazılım Geliştirici" />
+    <meta
+      property="og:description"
+      content="Flutter, Dart ve JavaScript projeleri. Android uygulamalarını indir, canlı web demosunu dene ve kaynak kodlarını incele."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alidanis61615.github.io/index/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <title>Ali Danış | Yazılım Geliştirici</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#projeler">Projelere geç</a>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="logo" href="#anasayfa">AD</a>
+        <button
+          class="menu-button"
+          aria-label="Menüyü aç"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          ☰
+        </button>
+        <div class="nav-links" id="navigation">
+          <a href="#hakkimda">Hakkımda</a>
+          <a href="#yetenekler">Yetenekler</a>
+          <a href="#projeler">Projeler</a>
+          <a href="#iletisim">İletişim</a>
         </div>
+      </nav>
+
+      <section id="anasayfa" class="hero-content container">
+        <p class="eyebrow">Mobil Teknolojileri Mezunu · Yazılım Geliştirici</p>
+        <p class="availability">
+          <span aria-hidden="true"></span> İş fırsatlarına açığım
+        </p>
+        <h1>Merhaba, ben <span>Ali Danış</span>.</h1>
+        <p class="hero-text">
+          Mobil uygulamalar, web arayüzleri ve veri takibi çözümleri
+          geliştiriyorum. Kullanıcı ihtiyaçlarını anlaşılır arayüzlere
+          dönüştürüyor, yazılım becerilerimi gerçek projelerle ilerletiyorum.
+          Aşağıda deneyebileceğiniz üç uygulama ve kaynak kodları var.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#projeler">Projelerimi Gör</a>
+          <a
+            class="button secondary"
+            href="https://github.com/alidanis61615"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub Profilim</a
+          >
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/ali-danis-3657b2435/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="hakkimda" class="section container">
+        <p class="section-label">Hakkımda</p>
+        <h2>Fikirden çalışan uygulamaya.</h2>
+        <p>
+          Trakya Üniversitesi Mobil Teknolojileri (Ön Lisans) bölümünden 2026
+          yılında 3.24 / 4.00 not ortalamasıyla mezun oldum. Üniversite
+          sürecinde mobil uygulamalar, web ve WordPress siteleri, veri tabanı
+          tasarımı, 2D oyun ve mikrodenetleyici projelerinde çalıştım. Bugün
+          Flutter, Dart ve JavaScript ile projeler geliştiriyor; kalıcı veri
+          saklama, test ve hata ayıklama becerilerimi ilerletiyorum.
+        </p>
+      </section>
+
+      <section id="yetenekler" class="section section-dark">
+        <div class="container">
+          <p class="section-label">Teknik Yetenekler</p>
+          <h2>Kullandığım teknolojiler</h2>
+          <div class="skill-grid">
+            <article class="card">
+              <h3>Flutter & Dart</h3>
+              <p>Material 3 ile mobil arayüzler ve uygulama akışları</p>
+            </article>
+            <article class="card">
+              <h3>Android Studio & Kotlin</h3>
+              <p>Android arayüzleri ve hesaplama mantığı</p>
+            </article>
+            <article class="card">
+              <h3>Java</h3>
+              <p>Nesne yönelimli programlama temelleri</p>
+            </article>
+            <article class="card">
+              <h3>JavaScript</h3>
+              <p>Etkileşimli web deneyimleri</p>
+            </article>
+            <article class="card">
+              <h3>HTML & CSS</h3>
+              <p>Mobil uyumlu web arayüzleri</p>
+            </article>
+            <article class="card">
+              <h3>WordPress</h3>
+              <p>Temel içerik yönetimi ve e-ticaret sitesi</p>
+            </article>
+            <article class="card">
+              <h3>Unity</h3>
+              <p>Temel 2D oyun geliştirme</p>
+            </article>
+            <article class="card">
+              <h3>Veri Saklama</h3>
+              <p>SQLite, SharedPreferences, localStorage ve JSON</p>
+            </article>
+            <article class="card">
+              <h3>Git & GitHub Actions</h3>
+              <p>Versiyon kontrolü, otomatik analiz, test ve APK derleme</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projeler" class="section container">
+        <p class="section-label">Öne çıkan projeler</p>
+        <h2>İndir, dene, kodunu incele.</h2>
+        <p class="section-intro">
+          Mobil uygulamalarda SQLite ile kalıcı veri saklama; web tarafında
+          okuma analizi ve veri aktarımı. Her projenin kaynak kodu ve otomatik
+          testleri GitHub'da.
+        </p>
+        <div class="project-grid featured-grid">
+          <article class="project featured">
+            <figure class="phone-preview">
+              <img
+                src="https://raw.githubusercontent.com/alidanis61615/PaketKap/main/Screenshot_20261012_185949.jpg"
+                alt="PaketKap gerçek Android ekranı: günlük beslenme özeti"
+                width="160"
+                height="320"
+                loading="lazy"
+              />
+              <figcaption>Gerçek cihaz ekranı</figcaption>
+            </figure>
+            <span class="tag">Flutter · Dart · SQLite</span>
+            <h3>PaketKap</h3>
+            <p>
+              Kalori, makro, su ve kilo takibi. Dönemsel grafikler ve
+              doğrulanmış JSON yedekleriyle kişisel beslenme kayıtlarını
+              düzenler.
+            </p>
+            <p class="project-detail">
+              Sayı ve tarih doğrulama · SQLite geri yükleme ve hata durumunda
+              geri alma testleri
+            </p>
+            <div class="project-links">
+              <a
+                class="button primary"
+                href="https://github.com/alidanis61615/PaketKap/releases/latest"
+                target="_blank"
+                rel="noreferrer"
+                >Android APK indir</a
+              ><a
+                class="text-link"
+                href="https://github.com/alidanis61615/PaketKap"
+                target="_blank"
+                rel="noreferrer"
+                >Kaynak kodu ve testler →</a
+              >
+            </div>
+          </article>
+          <article class="project featured">
+            <figure class="phone-preview">
+              <img
+                src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/light-theme.jpg"
+                alt="TaskFlow gerçek Android ekranı: görev listesi ve öncelikler"
+                width="160"
+                height="320"
+                loading="lazy"
+              />
+              <figcaption>Gerçek cihaz ekranı</figcaption>
+            </figure>
+            <span class="tag">Flutter · Dart · SQLite</span>
+            <h3>TaskFlow</h3>
+            <p>
+              Öncelik, kategori ve son tarihle görev yönetimi. Arama,
+              filtreleme, açık/koyu tema ve cihazda saklanan görevler.
+            </p>
+            <p class="project-detail">
+              SQLite sürüm geçişi · Ekrandan ekleme, arama, tamamlama ve onayla
+              silme testleri
+            </p>
+            <div class="project-links">
+              <a
+                class="button primary"
+                href="https://github.com/alidanis61615/TaskFlow/releases/latest"
+                target="_blank"
+                rel="noreferrer"
+                >Android APK indir</a
+              ><a
+                class="text-link"
+                href="https://github.com/alidanis61615/TaskFlow"
+                target="_blank"
+                rel="noreferrer"
+                >Kaynak kodu ve testler →</a
+              >
+            </div>
+          </article>
+          <article class="project featured web-project">
+            <div class="web-preview">
+              <span class="web-preview-label">Web uygulaması</span
+              ><strong>OkuTrack</strong
+              ><span>Öğrenci · Kitap · Okuma analizi</span>
+              <p>
+                Demoda “Örnek verileri yükle” ile grafikleri ve öğrenci
+                sıralamasını deneyebilirsiniz.
+              </p>
+            </div>
+            <span class="tag">HTML · CSS · JavaScript</span>
+            <h3>OkuTrack</h3>
+            <p>
+              Öğrenci ve kitap kayıtları, günlük sayfa hedefi, performans
+              analizi ve Excel için CSV raporu.
+            </p>
+            <p class="project-detail">
+              22 davranış testi · Yedek doğrulama · Depolama hatalarında
+              kayıtların korunması
+            </p>
+            <div class="project-links">
+              <a
+                class="button primary"
+                href="https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/"
+                target="_blank"
+                rel="noreferrer"
+                >Canlı demoyu dene</a
+              ><a
+                class="text-link"
+                href="https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-"
+                target="_blank"
+                rel="noreferrer"
+                >Kaynak kodu ve testler →</a
+              >
+            </div>
+          </article>
+        </div>
+        <details class="other-work">
+          <summary>Diğer öğrenme ve üniversite çalışmalarım</summary>
+          <div class="project-grid">
+            <article class="project">
+              <span class="tag">Kotlin · Android</span>
+              <h3>Android Hesap Makinesi</h3>
+              <p>Dört işlem, yüzde, ondalık sayı ve hata kontrolü.</p>
+              <a
+                class="text-link"
+                href="https://github.com/alidanis61615/index/tree/main/projects/android-calculator"
+                target="_blank"
+                rel="noreferrer"
+                >Kaynak kodu →</a
+              >
+            </article>
+            <article class="project">
+              <span class="tag">C# · Unity</span>
+              <h3>2D Platform Oyunu</h3>
+              <p>Hareket, zıplama, kamera takibi, skor ve bölüm tamamlama.</p>
+              <a
+                class="text-link"
+                href="https://github.com/alidanis61615/index/tree/main/projects/unity-2d-platformer"
+                target="_blank"
+                rel="noreferrer"
+                >Kaynak kodu →</a
+              >
+            </article>
+          </div>
+          <p class="muted">
+            Ders çalışmalarım arasında WordPress ile e-ticaret, şehir tanıtım
+            sitesi, veri tabanı ve Excel, mikrodenetleyici grup projesi ve
+            ağ/kablolama uygulamaları da bulunuyor.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer id="iletisim">
+      <div class="container footer-content">
+        <div>
+          <h2>Yeni fırsatlara açığım.</h2>
+          <p>
+            Yazılım geliştirme alanında ekip içinde katkı sunabileceğim
+            fırsatlara açığım. Mobil uygulamalar, web projeleri, test ve hata
+            ayıklama üzerine çalışıyorum.
+          </p>
+        </div>
+        <a
+          class="button primary"
+          href="https://www.linkedin.com/in/ali-danis-3657b2435/"
+          target="_blank"
+          rel="noreferrer"
+          >LinkedIn’den iletişime geç</a
+        >
       </div>
-    </section>
+      <p class="copyright">© <span id="year"></span> Ali Danış</p>
+    </footer>
 
-    <section id="projeler" class="section container">
-      <p class="section-label">Projeler</p>
-      <h2>Geliştirdiğim çalışmalar</h2>
-      <p class="section-intro">Mobil uygulamalar, eğitim teknolojileri ve web geliştirme çalışmalarım. Öne çıkan projelerin kaynak kodlarına, gerçek cihaz ekranlarına ve OkuTrack canlı demosuna aşağıdan ulaşabilirsiniz.</p>
-
-      <div class="project-grid">
-        <article class="project featured">
-          <span class="tag">Flutter · Dart · SQLite</span>
-          <h3>TaskFlow — Görev Takip</h3>
-          <p>Görev, öncelik, kategori ve son tarih yönetimi; arama, filtreler, açık-koyu tema ve SQLite ile kalıcı veri saklama.</p>
-          <a class="text-link" href="https://github.com/alidanis61615/TaskFlow" target="_blank" rel="noreferrer">Kaynak kodu ve ekranlar →</a>
-        </article>
-        <article class="project featured">
-          <span class="tag">Flutter · Dart · SQLite</span>
-          <h3>PaketKap — Kalori ve Beslenme Takibi</h3>
-          <p>Besin kayıtları ve kişisel hedefler; kalori, makro, su ve kilo takibi, dönemsel grafikler ve JSON yedekleme.</p>
-          <a class="text-link" href="https://github.com/alidanis61615/PaketKap" target="_blank" rel="noreferrer">Kaynak kodu ve ekranlar →</a>
-        </article>
-
-        <article class="project featured">
-          <span class="tag">HTML · CSS · JavaScript</span>
-          <h3>OkuTrack — Okuma Takip ve Analiz</h3>
-          <p>Öğrenci ve kitap kayıtları, günlük okuma hedefi, performans analizi, CSV raporu ve JSON yedekleme.</p>
-          <a class="text-link" href="https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/" target="_blank" rel="noreferrer">Canlı demoyu aç →</a>
-          <a class="text-link" href="https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-" target="_blank" rel="noreferrer">Kaynak kodu →</a>
-        </article>
-
-        <article class="project">
-          <span class="tag">Android Studio</span>
-          <h3>Android Hesap Makinesi</h3>
-          <p>Kotlin ile dört işlem, yüzde, ondalık sayı ve hata kontrolü sunan mobil hesap makinesi.</p>
-          <a class="text-link" href="https://github.com/alidanis61615/index/tree/main/projects/android-calculator" target="_blank" rel="noreferrer">Kaynak kodu →</a>
-        </article>
-
-        <article class="project">
-          <span class="tag">WordPress · E-Ticaret</span>
-          <h3>E-Ticaret Sitesi</h3>
-          <p>İçerik yönetimi dersi kapsamında Trendyol benzeri ürün listeleme mantığıyla hazırlanan WordPress sitesi.</p>
-        </article>
-
-        <article class="project">
-          <span class="tag">Veri Tabanı · Excel</span>
-          <h3>Veri Tasarımı Çalışmaları</h3>
-          <p>Temel veri tabanı tasarımı ile Excel üzerinde hazırlanan tablo ve uygulama örnekleri.</p>
-        </article>
-
-        <article class="project">
-          <span class="tag">Web Projesi</span>
-          <h3>Şehir Tanıtım Sitesi</h3>
-          <p>Kendi şehrimin kültürel ve yerel özelliklerini tanıtmak amacıyla hazırladığım web sitesi.</p>
-        </article>
-
-        <article class="project">
-          <span class="tag">Unity · 2D Oyun</span>
-          <h3>2D Platform Oyunu</h3>
-          <p>C# ile hareket, zıplama, kamera takibi, skor ve bitiş sistemine sahip 2D oyun.</p>
-          <a class="text-link" href="https://github.com/alidanis61615/index/tree/main/projects/unity-2d-platformer" target="_blank" rel="noreferrer">Kaynak kodu →</a>
-        </article>
-
-        <article class="project">
-          <span class="tag">Mikrodenetleyiciler · Grup Projesi</span>
-          <h3>Yangın Müdahale Sistemi</h3>
-          <p>Yangını algılayıp ilgili yöne hareket ederek su püskürtmeyi amaçlayan görev tabanlı sistem.</p>
-        </article>
-
-        <article class="project">
-          <span class="tag">Ağ Teknolojileri</span>
-          <h3>Ağ ve Kablolama Çalışmaları</h3>
-          <p>Ağ temelleri, internet teknolojileri ve ağ kablosu hazırlama üzerine uygulamalı çalışmalar.</p>
-        </article>
-
-        <article class="project">
-          <span class="tag">Akademik Çalışmalar</span>
-          <h3>Yapay Zekâ Projeleri</h3>
-          <p>Üniversite dersleri kapsamında farklı yapay zekâ uygulamaları üzerine proje çalışmaları.</p>
-        </article>
-
-        <article class="project portfolio-project">
-          <span class="tag">HTML · CSS · JavaScript</span>
-          <h3>Kişisel Portföy</h3>
-          <p>Yeteneklerimi ve çalışmalarımı sergilemek için geliştirdiğim mobil uyumlu web sitesi.</p>
-          <a class="text-link" href="https://github.com/alidanis61615/index" target="_blank" rel="noreferrer">Kaynak kodu →</a>
-        </article>
-      </div>
-
-      <div class="next-step">
-        <span>Aktif geliştirme</span>
-        <strong>PaketKap · TaskFlow · OkuTrack</strong>
-      </div>
-    </section>
-  </main>
-
-  <footer id="iletisim">
-    <div class="container footer-content">
-      <div>
-        <h2>Yeni fırsatlara açığım.</h2>
-        <p>Yazılım geliştirme alanında ekip içinde katkı sunabileceğim fırsatlara açığım. Mobil uygulamalar, web projeleri, test ve hata ayıklama üzerine çalışıyorum.</p>
-      </div>
-      <a class="button primary" href="https://github.com/alidanis61615" target="_blank" rel="noreferrer">GitHub'da İncele</a>
-    </div>
-    <p class="copyright">© <span id="year"></span> Ali Danış</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
