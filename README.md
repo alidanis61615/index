@@ -16,19 +16,21 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 
 | Proje | Çözdüğü ihtiyaç | Teknik çalışma | İncele |
 | --- | --- | --- | --- |
-| **PaketKap** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/PaketKap) · [Android APK](https://github.com/alidanis61615/PaketKap/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/PaketKap/tree/main/test) |
-| **TaskFlow** | Görevleri öncelik, kategori ve son tarihe göre düzenlemek | SQLite CRUD ve sürüm geçişleri, arama/filtreleme, kalıcı tema tercihi | [Ekranlar ve kod](https://github.com/alidanis61615/TaskFlow) · [Android APK](https://github.com/alidanis61615/TaskFlow/releases/latest) · [Ekran/SQLite testleri](https://github.com/alidanis61615/TaskFlow/tree/main/test) |
+| **Kalori Takip** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/Kalori-Takip) · [Android APK ve demo](https://github.com/alidanis61615/Kalori-Takip/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/Kalori-Takip/tree/main/test) |
+| **TaskFlow** | Görevleri öncelik, kategori ve son tarihe göre düzenlemek | SQLite CRUD ve sürüm geçişleri, arama/filtreleme, kalıcı tema tercihi | [Ekranlar ve kod](https://github.com/alidanis61615/TaskFlow) · [Android APK ve demo](https://github.com/alidanis61615/TaskFlow/releases/latest) · [Ekran/SQLite testleri](https://github.com/alidanis61615/TaskFlow/tree/main/test) |
 | **OkuTrack** | Öğrencilerin okuma alışkanlıklarını kaydetmek ve analiz etmek | Öğrenci analizi, 7 günlük grafik, CSV raporu, JSON yedekleme | [Canlı demo](https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/) · [Kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-) |
 
-### Uygulamalardan gerçek ekranlar
+### Uygulamalardan dolu ekranlar
 
 <p align="center">
-  <a href="https://github.com/alidanis61615/PaketKap"><img src="https://raw.githubusercontent.com/alidanis61615/PaketKap/main/Screenshot_20261012_185949.jpg" alt="PaketKap Android uygulamasında günlük beslenme özeti" width="200"></a>
+  <a href="https://github.com/alidanis61615/Kalori-Takip"><img src="https://raw.githubusercontent.com/alidanis61615/Kalori-Takip/main/docs/media/kalori-gun-ozeti.png" alt="Kalori Takip Android uygulamasında günlük beslenme özeti" width="200"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/alidanis61615/TaskFlow"><img src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/light-theme.jpg" alt="TaskFlow Android uygulamasında görev listesi" width="200"></a>
+  <a href="https://github.com/alidanis61615/TaskFlow"><img src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/docs/media/taskflow-light.png" alt="TaskFlow Android uygulamasında görev listesi" width="200"></a>
 </p>
 
-<p align="center"><b>PaketKap</b> — Kalori ve beslenme takibi &nbsp; · &nbsp; <b>TaskFlow</b> — Görev yönetimi</p>
+<p align="center">Android emülatöründe çalışan uygulamalar · Örnek verilerle oluşturulmuş ekranlar</p>
+
+<p align="center"><b>Kalori Takip</b> — Kalori ve beslenme takibi &nbsp; · &nbsp; <b>TaskFlow</b> — Görev yönetimi</p>
 
 ## Kullandığım teknolojiler
 
@@ -39,23 +41,23 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 | Veri | SQLite, SharedPreferences, localStorage, JSON |
 | Geliştirme ve doğrulama | Git, GitHub, GitHub Actions, Flutter testleri |
 
-**Kod kalitesi:** Model, veritabanı ve ekran kodları ayrı dosyalarda; mobil projelerde gerçek SQLite testleri, OkuTrack’ta 22 davranış testi bulunuyor. Analiz ve testler GitHub Actions üzerinde çalışıyor.
+**Kod kalitesi:** Model, veritabanı ve ekran kodları ayrı dosyalarda; mobil projelerde SQLite ve arayüz testleri, OkuTrack’ta 22 davranış testi bulunuyor. Android emülatöründe yeniden açılışta verilerin korunması ayrıca kontrol ediliyor. Analiz ve testler GitHub Actions üzerinde çalışıyor.
 
 **Diğer çalışmalarım:** [Kotlin hesap makinesi](https://github.com/alidanis61615/index/tree/main/projects/android-calculator), [C# / Unity 2D platform oyunu](https://github.com/alidanis61615/index/tree/main/projects/unity-2d-platformer), Java temelleri ve WordPress.
 
 ## Kod incelemesine başlangıç
 
-- **Veri saklama ve hesaplama:** [PaketKap modelleri, SQLite ve JSON yedekleme](https://github.com/alidanis61615/PaketKap/blob/main/lib/services/store.dart); [bağımsız trend hesapları ve testleri](https://github.com/alidanis61615/PaketKap/blob/main/test/nutrition_trends_test.dart).
+- **Veri saklama ve hesaplama:** [Kalori Takip modelleri, SQLite ve JSON yedekleme](https://github.com/alidanis61615/Kalori-Takip/blob/main/lib/services/store.dart); [bağımsız trend hesapları ve testleri](https://github.com/alidanis61615/Kalori-Takip/blob/main/test/nutrition_trends_test.dart).
 - **Görev yönetimi:** [TaskFlow modeli, veritabanı ve uygulama akışları](https://github.com/alidanis61615/TaskFlow/tree/main/lib).
 - **Web ve raporlama:** [OkuTrack kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/blob/main/core.js); demoda **Örnek verileri yükle** seçeneğiyle grafik ve öğrenci analizini deneyebilirsiniz.
 
-[PaketKap kontrolleri](https://github.com/alidanis61615/PaketKap/actions) · [TaskFlow kontrolleri](https://github.com/alidanis61615/TaskFlow/actions) · [OkuTrack kontrolleri](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/actions)
+[Kalori Takip kontrolleri](https://github.com/alidanis61615/Kalori-Takip/actions) · [TaskFlow kontrolleri](https://github.com/alidanis61615/TaskFlow/actions) · [OkuTrack kontrolleri](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/actions)
 
 **[LinkedIn üzerinden iletişime geçebilirsiniz.](https://www.linkedin.com/in/ali-danis-3657b2435/)**
 
 ## Bu depodaki çalışmalar
 
-Bu depo kişisel portföy sitemi ve ek öğrenme projelerimi içerir. PaketKap, TaskFlow ve OkuTrack yukarıdaki ayrı depolarda bulunur.
+Bu depo kişisel portföy sitemi ve ek öğrenme projelerimi içerir. Kalori Takip, TaskFlow ve OkuTrack yukarıdaki ayrı depolarda bulunur.
 
 | Çalışma | İçerik |
 | --- | --- |
