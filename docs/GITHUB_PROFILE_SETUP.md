@@ -1,51 +1,46 @@
-# GitHub Profil Ayarları — Hazır Taslak
+# GitHub profil düzenlemesi — uygulama durumu
 
-Bu ayarlar hazırlandı; GitHub profil ekranına, sabitlenen projelere veya depo açıklamalarına henüz uygulanmadı. Mevcut GitHub araçları bu ayarları değiştirmeyi ve yeni depo oluşturmayı desteklemiyor.
+14 Ekim 2026 incelemesinde ana profil dışarıdan **gizli** görünüyor; ziyaretçiye proje vitrini gösterilmiyor. `alidanis61615/alidanis61615` adlı profil deposu henüz bulunmuyor. Proje depoları herkese açık.
 
-## Profil
+Bu depodaki görsel proje vitrini, profil metni ve kod inceleme bağlantıları güncellendi. Aşağıdaki hesap işlemleri henüz uygulanmadı; tarayıcıda GitHub oturumu açılması gerekiyor. GitHub bu hesapta parola ile girişin desteklenmediğini bildirdi.
 
-| Alan | Hazır değer |
+## Profilde uygulanacak bilgiler
+
+| Alan | Değer |
 | --- | --- |
 | Ad | Ali Danış |
-| Biyografi | Mobil Teknolojileri mezunu | Yazılım Geliştirici | Flutter, Dart, JavaScript ve SQLite ile mobil uygulamalar ve web projeleri geliştiriyorum. |
+| Biyografi | Mobil Teknolojileri mezunu · Yazılım Geliştirici. Flutter, Dart, JavaScript ve SQLite ile uygulamalar geliştiriyorum. İş fırsatlarına açığım. |
 | Konum | İstanbul, Türkiye |
 | Web bağlantısı | https://www.linkedin.com/in/ali-danis-3657b2435/ |
+| Profil görünürlüğü | Proje vitrinini ziyaretçilere gösterecek şekilde herkese açık |
 
-## Ana profil metni
+Kullanıcı adı `alidanis61615` olarak korunur. Yalnızca herkese açık proje ve mesleki bilgiler vitrinde kullanılır.
 
-`alidanis61615/alidanis61615` adlı herkese açık depoda kökteki `README.md` için [hazır profil metni](GITHUB_PROFILE.md). Bu depo henüz oluşturulmadı.
+## Ana profil README'si
+
+`alidanis61615/alidanis61615` adlı herkese açık depoda kökteki `README.md` için [tam hazır profil metni](GITHUB_PROFILE.md) kullanılacak. Görsel başlık ve ekran bağlantıları diğer depolara mutlak bağlantı verdiği için bu metin yeni profil deposuna taşınabilir.
 
 ## Sabitlenecek projeler
 
-1. PaketKap
-2. TaskFlow
-3. Ogrenci-Okuma-Takip-Sistemi- (OkuTrack)
-4. index (kişisel portföy ve ek projeler)
+1. **PaketKap** — Android beslenme takibi.
+2. **TaskFlow** — Android görev yönetimi.
+3. **Ogrenci-Okuma-Takip-Sistemi- (OkuTrack)** — canlı web demosu.
+4. **index** — kişisel portföy ve ek çalışmalar.
 
 ## Depo açıklamaları ve konuları
 
-### PaketKap
+| Depo | Açıklama | Konular |
+| --- | --- | --- |
+| PaketKap | Flutter ve Dart ile Android beslenme takibi: kalori/makro, öğün, su, kilo, grafikler ve SQLite verileri için JSON yedekleme. | `flutter`, `dart`, `sqlite`, `android`, `nutrition-tracker`, `portfolio` |
+| TaskFlow | Flutter ve SQLite ile Android görev yönetimi: öncelik, kategori, son tarih, arama, filtreler ve açık/koyu tema. | `flutter`, `dart`, `sqlite`, `android`, `task-management`, `portfolio` |
+| Ogrenci-Okuma-Takip-Sistemi- | OkuTrack: Öğrenci okuma hedefleri, performans analizi, CSV raporu ve JSON yedekleme sunan JavaScript uygulaması. | `javascript`, `html`, `css`, `education`, `reading-tracker`, `github-pages` |
+| index | Ali Danış — Yazılım Geliştirici, Mobil Teknolojileri mezunu. Proje portföyü, Kotlin hesap makinesi ve Unity 2D çalışmaları. | `portfolio`, `software-development`, `flutter`, `javascript`, `kotlin`, `unity` |
 
-Flutter ve Dart ile Android beslenme takibi: kalori/makro, öğün, su, kilo, grafikler ve SQLite tabanlı JSON yedekleme.
+OkuTrack depo web bağlantısı: https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/
 
-Konular: `flutter`, `dart`, `sqlite`, `android`, `nutrition-tracker`, `portfolio`
+## Doğrulanmış mevcut durum
 
-### TaskFlow
-
-Flutter ve SQLite ile Android görev yönetimi: öncelik, kategori, son tarih, arama, filtreler ve açık/koyu tema.
-
-Konular: `flutter`, `dart`, `sqlite`, `android`, `task-management`, `portfolio`
-
-### Ogrenci-Okuma-Takip-Sistemi-
-
-OkuTrack: Öğrenci okuma hedefleri, performans analizi, CSV raporu ve JSON yedekleme sunan JavaScript uygulaması.
-
-Konular: `javascript`, `html`, `css`, `education`, `reading-tracker`, `github-pages`
-
-Demo: https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/
-
-### index
-
-Ali Danış — Mobil Teknolojileri mezunu, Yazılım Geliştirici. Proje portföyü, Kotlin hesap makinesi ve Unity 2D çalışmaları.
-
-Konular: `portfolio`, `software-development`, `flutter`, `javascript`, `kotlin`, `unity`
+- Üç ana projenin son otomatik kontrol çalışmaları başarılı.
+- OkuTrack canlı demo sayfası açılıyor.
+- PaketKap ve TaskFlow gerçek Android ekranları depolarda mevcut.
+- Ana profil görünürlüğü, adı, biyografisi, sabitlenen depoları ve depo açıklamaları giriş sonrasında uygulanacak.

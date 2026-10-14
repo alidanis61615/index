@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title description">
+<title id="title">Ali Danış — Yazılım Geliştirici</title>
+<desc id="description">Mobil Teknolojileri mezunu. Flutter, Dart ve JavaScript ile uygulama geliştirme.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c33"/><stop offset="1" stop-color="#173957"/></linearGradient></defs>
+<rect width="1120" height="280" rx="24" fill="url(#bg)"/>
+<path d="M800 0V280M880 0V280M960 0V280M1040 0V280M740 60H1120M740 140H1120M740 220H1120" fill="none" stroke="#29506c" stroke-width="1"/>
+<circle cx="985" cy="142" r="106" fill="#112b45" stroke="#38637d"/>
+<rect x="915" y="72" width="140" height="140" rx="28" fill="#183e5c" stroke="#5ee0c0" stroke-width="2"/>
+<text x="985" y="168" text-anchor="middle" fill="#80f0d3" font-family="DejaVu Sans,Arial,sans-serif" font-size="62" font-weight="700">AD</text>
+<rect x="48" y="44" width="5" height="193" rx="2.5" fill="#70e4c7"/>
+<text x="76" y="96" fill="#f4f8fc" font-family="DejaVu Sans,Arial,sans-serif" font-size="52" font-weight="700">Ali Danış</text>
+<text x="78" y="147" fill="#e0ebf6" font-family="DejaVu Sans,Arial,sans-serif" font-size="27">Yazılım Geliştirici</text>
+<text x="78" y="185" fill="#afc4d8" font-family="DejaVu Sans,Arial,sans-serif" font-size="18">Mobil Teknolojileri mezunu · İstanbul</text>
+<text x="78" y="229" fill="#80f0d3" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700">Flutter / Dart</text>
+<circle cx="230" cy="223" r="2" fill="#5e829c"/>
+<text x="253" y="229" fill="#80f0d3" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700">JavaScript</text>
+<circle cx="369" cy="223" r="2" fill="#5e829c"/>
+<text x="392" y="229" fill="#80f0d3" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700">SQLite</text>
+</svg>
